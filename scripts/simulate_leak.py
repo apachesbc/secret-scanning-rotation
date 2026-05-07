@@ -5,20 +5,18 @@
 import os
 
 # Simulated leaked AWS credentials (FAKE)
-AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLEX"
 AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
 # Simulated leaked GitHub token (FAKE)
-GITHUB_TOKEN = "ghp_FAKE1234567890abcdefghijklmnopqrstuv"
+GITHUB_TOKEN = "ghp_aBcDeFgHiJkLmNoPqRsTuVwXyZ012345678"
 
 # Simulated leaked Stripe key (FAKE)
-STRIPE_SECRET_KEY = "sk_live_FAKE1234567890abcdefghij"
+STRIPE_SECRET_KEY = "sk_live_aBcDeFgHiJkLmNoPqRsTuVwXy"
 
 def main():
     print("Simulating application startup...")
-    print(f"Connecting with key: {AWS_ACCESS_KEY_ID[:8]}...")
     print("This file exists to demonstrate secret detection tools.")
-    print("In a real scenario, these would be detected and blocked.")
 
 if __name__ == "__main__":
     main()
