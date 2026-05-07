@@ -1,0 +1,10 @@
+title = "GitLeaks Config — Secret Scanning Portfolio Project"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Allow known demo/fake secrets in simulation files"
+paths = [
+  '''scripts/simulate_leak\.py'''
+]
